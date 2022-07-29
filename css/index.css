@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", "Fredoka One";
+}
+
+/* Navbar */
+nav img{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+nav img:nth-child(3){
+    width: 400px;
+}
+.nav{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.nav-item{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.nav-item:hover{
+    font-weight: 600;
+    color: #FE5E35;
+}
+
+
+/* Mid section */
+
+/* Right Section */
+.intro-section{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section{
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section{
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.headphone-img{
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 80px;
+    z-index: -1;
+}
+.star{
+    position: absolute;
+    width: 130px;
+    top: 300px;
+    left: 750px;
+    z-index: 1;
+}
+
+.discount-content{
+    position: absolute;
+    top: 320px;
+    left: 780px;
+    z-index: 2;
+}
+.discount-content h4{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.discount-content h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    font-family:"Fredoka One";
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 35px;
+}
+
+/* left Section */
+.left-section{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.left-section h3{
+    font-size: 30px;
+}
+
+.left-section h1{
+    font-family: "Fredoka One";
+    font-size: 60px;
+    font-weight: 400;
+}
+.sub-headlines{
+    margin-top: 40px;
+}
+
+.sub-headline{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    
+}
+.sub-headline img{
+    background-color: #FE5E35;
+    border-radius: 50px;
+    width: 15px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.text{
+    font-size: 12px;
+    color: #bebebe;
+}
+
+/* below sec & button */
+.action-btns{
+    margin-top: 50px;
+    
+}
+.action-btn{
+    
+    background-color: #FE5E35;
+    color: #fff;
+    border: 1px solid #FE5E35;
+    border-radius: 25px;
+    padding: 15px 35px;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.right-section .action-btn{
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+.dots{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+
+.dot{
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 100%;    
+}
+.yellow-dot{
+    background-color: #ffff00;
+}
+.tomato-dot{
+    background-color: #FE5E35;
+}
+.black-dot{
+    background-color:#1d1d1d;
+}
